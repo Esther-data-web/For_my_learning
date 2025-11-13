@@ -1,0 +1,29 @@
+[0m13:09:11.778459 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246669CFE00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024664A3DBD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024667DC7D90>]}
+
+
+============================== 13:09:11.789419 | 04118177-7683-4fce-ad51-c2cd426d217c ==============================
+[0m13:09:11.789419 [info ] [MainThread]: Running with dbt=1.10.10
+[0m13:09:11.791176 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt init dbt_after_session', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'printer_width': '80', 'log_path': 'logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m13:09:11.872963 [debug] [MainThread]: Starter project path: C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m13:09:11.917216 [info ] [MainThread]: 
+Your new dbt project "dbt_after_session" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:09:11.921169 [info ] [MainThread]: Setting up your profile.
+[0m13:12:14.284072 [info ] [MainThread]: Profile dbt_after_session written to C:\Users\DELL\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:12:14.286925 [debug] [MainThread]: Command `dbt init` succeeded at 13:12:14.286617 after 182.94 seconds
+[0m13:12:14.287748 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024667E868B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024667FA1010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024667C23680>]}
+[0m13:12:14.288753 [debug] [MainThread]: Flushing usage events
+[0m13:12:16.431071 [debug] [MainThread]: An error was encountered while trying to flush usage events
